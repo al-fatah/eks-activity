@@ -1,0 +1,22 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.crash
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+*.yaml~
+*.yml~
+.kube/
+
+# Logs
+*.log
+
+# MacOS System Files
+.DS_Store
+
+# VS Code
+.vscode/
