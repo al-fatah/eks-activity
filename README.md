@@ -3,10 +3,11 @@
 This repository contains the Kubernetes manifests and evidence for the
 **EKS Deployment Activity** performed on the shared AWS EKS cluster.
 
-The activity includes: - Creating a namespace\
-- Deploying an Nginx application\
-- Exposing it via a LoadBalancer Service\
-- Creating and attaching a ServiceAccount\
+The activity includes: 
+- Creating a namespace
+- Deploying an Nginx application
+- Exposing it via a LoadBalancer Service
+- Creating and attaching a ServiceAccount
 - Verifying all resources within the namespace
 
 ------------------------------------------------------------------------
@@ -75,8 +76,9 @@ Optional convenience command:
 
 ## ✨ Conclusion
 
-This activity demonstrates: - Understanding of Kubernetes resources\
-- Ability to deploy workloads to EKS\
-- Usage of namespaces for resource isolation\
-- Service exposure using AWS LoadBalancer\
+This activity demonstrates: 
+- Understanding of Kubernetes resources
+- Ability to deploy workloads to EKS
+- Usage of namespaces for resource isolation
+- Service exposure using AWS LoadBalancer
 - Applying ServiceAccounts to deployments
